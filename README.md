@@ -41,7 +41,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 
 2️⃣  **Answer Questions** – Select your answer from the given options. ✅❌  
 
-3️⃣   
+3️⃣   **Track Your Score** – Watch your score update instantly! 📊
 
 
 
