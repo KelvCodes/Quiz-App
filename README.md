@@ -61,7 +61,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 
 ## 🤝 Contributing  
 
-Want to make App even better? We’d love your help! 💡  
+Want to make this Quiz App even better? We’d love your help! 💡  
 1. Fork this repository.  
 2. Create a new branch:  
    ```bash  
@@ -114,7 +114,7 @@ Have feedback, ideas, or just want to chat? Reach out to me:
 If you enjoy my projects, feel free to [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-%F0%9F%8C%8D-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/kelvcodes) 
 
 ---
-Enjoy app,and don’t forget to ⭐ the repo if you like it! 🥳✨  
+Enjoy Quiz app,and don’t forget to ⭐ the repo if you like it! 🥳✨  
 
 
 
