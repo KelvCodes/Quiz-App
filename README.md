@@ -9,7 +9,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 
 ## 🌟 Features  
 - ✅ **📋 Random Questions** – Fetches questions from a trivia API every time you play.  
-- ✅ 
+- ✅ **⚡ Instant Feedback** – Know immediately if your answer is right or wrong.  
 - ✅ **🎭 Smooth Animations** – Realistic wheel spinning with easing effects. 
 - ✅ **📅 Daily Challenges** – A fresh new challenge every day!  
 - ✅ **📊 Progress Tracking** – Keep a history of completed challenges.
