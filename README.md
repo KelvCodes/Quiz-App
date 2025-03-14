@@ -39,7 +39,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 ## 🚀 How to Use 
 1️⃣  **Start the Game** – Launch the app and click 'Start Quiz.' 🏁
 
-2️⃣ 
+2️⃣  **Answer Questions** – Select your answer from the given options. ✅❌  
 
 3️⃣  **Track Your Progress** – Keep a log of completed challenges. ✅  
 
