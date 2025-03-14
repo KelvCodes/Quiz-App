@@ -9,7 +9,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 
 ## 🌟 Features  
 - ✅ **📋 Random Questions** – Fetches questions from a trivia API every time you play.  
-- ✅ **🌍 Social Responsibility Focus** – Actions that help the environment & society. 
+- ✅ 
 - ✅ **🎭 Smooth Animations** – Realistic wheel spinning with easing effects. 
 - ✅ **📅 Daily Challenges** – A fresh new challenge every day!  
 - ✅ **📊 Progress Tracking** – Keep a history of completed challenges.
