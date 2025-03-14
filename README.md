@@ -41,7 +41,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 
 2️⃣  **Answer Questions** – Select your answer from the given options. ✅❌  
 
-3️⃣  **Track Your Progress** – Keep a log of completed challenges. ✅  
+3️⃣   
 
 
 
