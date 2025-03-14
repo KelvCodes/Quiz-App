@@ -16,8 +16,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 - ✅ **📱 Fully Responsive** – Works perfectly on desktop, tablet, and mobile!  
 
 
-  
-  
+    
 ---      
 ## 🎬 Live Demo 
 
