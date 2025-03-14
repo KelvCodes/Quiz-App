@@ -39,7 +39,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 ## 🚀 How to Use 
 1️⃣  **Start the Game** – Launch the app and click 'Start Quiz.' 🏁
 
-2️⃣  **Complete the Task** – Follow through and make a difference! 🌍 
+2️⃣ 
 
 3️⃣  **Track Your Progress** – Keep a log of completed challenges. ✅  
 
