@@ -37,7 +37,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 ---
 
 ## 🚀 How to Use 
-1️⃣  **Spin the Wheel** – Click the spin button and receive a challenge! 🎡
+1️⃣  
 
 2️⃣  **Complete the Task** – Follow through and make a difference! 🌍 
 
