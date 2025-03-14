@@ -15,7 +15,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 - ✅ **🌙 Dark Mode** – Sleek experience for night owls.  
 - ✅ **📱 Fully Responsive** – Works perfectly on desktop, tablet, and mobile!  
 
-- ✅ **📱 Fully Responsive** – Optimized for desktop & mobile. 
+
   
   
 ---      
