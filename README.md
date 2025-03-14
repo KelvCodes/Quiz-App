@@ -11,7 +11,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 - ✅ **📋 Random Questions** – Fetches questions from a trivia API every time you play.  
 - ✅ **⚡ Instant Feedback** – Know immediately if your answer is right or wrong.  
 - ✅ **📊 Score Tracking** – Keeps track of your score during the game. 
-- ✅ **📅 Daily Challenges** – A fresh new challenge every day!  
+- ✅ **🎭 Smooth Animations** – Delightful UI transitions and effects
 - ✅ **📊 Progress Tracking** – Keep a history of completed challenges.
 - ✅ **🎉 Confetti Animation** – Celebrate completed challenges with style!
 - ✅ **🌙 Dark Mode** – A sleek, modern experience for all users.
