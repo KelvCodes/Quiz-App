@@ -8,7 +8,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 ---
 
 ## 🌟 Features  
-- ✅ **🎡 Interactive Wheel** – Get a random daily challenge with each spin.  
+- ✅ 
 - ✅ **🌍 Social Responsibility Focus** – Actions that help the environment & society. 
 - ✅ **🎭 Smooth Animations** – Realistic wheel spinning with easing effects. 
 - ✅ **📅 Daily Challenges** – A fresh new challenge every day!  
