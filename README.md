@@ -13,7 +13,7 @@ Built with **HTML**, **CSS**, and **JavaScript** – no backend required! 🚀
 - ✅ **📊 Score Tracking** – Keeps track of your score during the game. 
 - ✅ **🎭 Smooth Animations** – Delightful UI transitions and effects
 - ✅ **🌙 Dark Mode** – Sleek experience for night owls.  
-- ✅
+- ✅ **📱 Fully Responsive** – Works perfectly on desktop, tablet, and mobile!  
 - ✅ **🌙 Dark Mode** – A sleek, modern experience for all users.
 - ✅ **📱 Fully Responsive** – Optimized for desktop & mobile. 
   
