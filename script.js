@@ -1,12 +1,5 @@
 
-function loadQuestion() {
-    fetch(`https://opentdb.com/api.php?amount=1&category=${selectedCategory}&type=multiple`)
-        .then(response => response.json())
-        .then(data => {
-            const questionData = data.results[0];
-            correctAnswer = questionData.correct_answer;
-            let options = [...questionData.incorrect_answers, correctAnswer];
-            options.sort(() => Math.random() - 0.5);
+funions.sort(() => Math.random() - 0.5);
 
             questionEl.innerHTML = `${questionData.question} 
                 <span class="category">(${questionData.category})</span>`;
