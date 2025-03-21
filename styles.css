@@ -1,14 +1,4 @@
-ght);
-    padding: 2.5rem;
-    width: 90%;
-    max-width: 750px;
-    border-radius: 2rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    position: relative;
-    overflow: hidden;
-}
-
-.start-screen, .quiz-container {
+en, .quiz-container {
     animation: fadeIn 0.5s ease-in-out;
 }
 
