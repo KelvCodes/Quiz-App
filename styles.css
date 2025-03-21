@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-:root {
-    --primary-gradient: linear-gradient(135deg, #8854C0, #FF6F61);
-    --dark-gradient: linear-gradient(135deg, #2b1e66, #4a3a9e);
-    --light: #fff;
+ght: #fff;
     --dark: #333;
     --transition: all 300ms ease-in-out;
 }
