@@ -1,14 +1,5 @@
 -background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 1.5rem;
-}
-
-.gradient-select {
-    padding: 0.7rem;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 0.5rem;
-    background: var(--primary-gradient);
+    -weimary-gradient);
     color: var(--light);
     width: 80%;
     max-width: 350px;
