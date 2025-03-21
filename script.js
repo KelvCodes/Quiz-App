@@ -1,15 +1,5 @@
 ntQuestion >= totalQuestions) {
-        endGame();
-        return;
-    }
-    resultEl.classList.remove("result-slide");
-    resultEl.textContent = "";
-    checkAnswerBtn.style.display = "block";
-    nextQuestionBtn.style.display = "none";
-    quizContainer.classList.add("fade-out");
-    setTimeout(() => {
-        quizContainer.classList.remove("fade-out");
-        quizContainer.classList.add("fade-in");
+uizContainer.classList.add("fade-in");
         loadQuestion();
     }, 500);
 }
