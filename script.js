@@ -1,13 +1,5 @@
 
-
-            op
-            currentQuestionEl.textContent = currentQuestion + 1;
-        });
-}
-
-function checkAnswer() {
-    const selectedOption = optionsList.querySelector(".selected");
-    if (!selectedOption) {
+(!selectedOption) {
         alert("Please select an answer!");
         return;
     }
