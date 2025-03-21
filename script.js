@@ -1,11 +1,5 @@
 
-(!selectedOption) {
-        alert("Please select an answer!");
-        return;
-    }
-
-    let userAnswer = selectedOption.textContent;
-    if (userAnswer === correctAnswer) {
+swer === correctAnswer) {
         correctScore++;
         resultEl.innerHTML = `<i class="fas fa-check-circle"></i> Brilliant!`;
         selectedOption.classList.add("correct");
