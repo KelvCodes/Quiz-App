@@ -1,14 +1,4 @@
-
-
-    resultEl.classList.add("result-slide");
-    checkAnswerBtn.style.display = "none";
-    nextQuestionBtn.style.display = "block";
-    correctScoreEl.textContent = correctScore;
-}
-
-function loadNextQuestion() {
-    currentQuestion++;
-    if (currentQuestion >= totalQuestions) {
+ntQuestion >= totalQuestions) {
         endGame();
         return;
     }
