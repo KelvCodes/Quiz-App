@@ -1,8 +1,4 @@
 
-  dQuestion();
-    }, 500);
-}
-
 function loadQuestion() {
     fetch(`https://opentdb.com/api.php?amount=1&category=${selectedCategory}&type=multiple`)
         .then(response => response.json())
