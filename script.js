@@ -1,12 +1,6 @@
 
 
-            optionsList.querySelectorAll("li").forEach((option, index) => {
-                option.style.animationDelay = `${index * 0.1}s`;
-                option.addEventListener("click", () => {
-                    optionsList.querySelectorAll("li").forEach(li => li.classList.remove("selected"));
-                    option.classList.add("selected");
-                });
-            });
+            op
             currentQuestionEl.textContent = currentQuestion + 1;
         });
 }
