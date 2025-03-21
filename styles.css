@@ -1,11 +1,4 @@
--background-clip: text;
-    -weimary-gradient);
-    color: var(--light);
-    width: 80%;
-    max-width: 350px;
-    cursor: pointer;
-    transition: var(--transition);
-}
+
 
 .gradient-btn {
     background: var(--primary-gradient);
