@@ -1,10 +1,5 @@
 
-    startScreen.classList.add("fade-out");
-    setTimeout(() => {
-        startScreen.style.display = "none";
-        quizContainer.style.display = "block";
-        quizContainer.classList.add("fade-in");
-        loadQuestion();
+  dQuestion();
     }, 500);
 }
 
