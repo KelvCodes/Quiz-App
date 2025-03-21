@@ -1,11 +1,4 @@
-ntQuestion >= totalQuestions) {
-uizContainer.classList.add("fade-in");
-        loadQuestion();
-    }, 500);
-}
-
-function animateScore() {
-    correctScoreEl.classList.add("score-bounce");
+.classList.add("score-bounce");
     setTimeout(() => correctScoreEl.classList.remove("score-bounce"), 600);
 }
 
