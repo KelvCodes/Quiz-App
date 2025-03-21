@@ -4,12 +4,7 @@
 }
 
 function restartGame() {
-    correctScore = 0;
-    currentQuestion = 0;
-    correctScoreEl.textContent = correctScore;
-    resultEl.textContent = "";
-    quizContainer.classList.add("fade-out");
-    setTimeout(() => {
+    correc => {
         quizContainer.style.display = "none";
         startScreen.style.display = "block";
         startScreen.classList.remove("fade-out");
