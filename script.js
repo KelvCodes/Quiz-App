@@ -1,9 +1,4 @@
-n startQuiz() {
-    selectedCategory = categorySelect.value;
-    if (!selectedCategory) {
-        alert("Please select a category!");
-        return;
-    }
+
     startScreen.classList.add("fade-out");
     setTimeout(() => {
         startScreen.style.display = "none";
