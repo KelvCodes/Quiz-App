@@ -1,1 +1,68 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterclass Quiz Pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="start-screen" id="start-screen">
+            <h1 class="title-gradient">Masterclass Quiz Pro</h1>
+            <select id="category-select" class="gradient-select">
+                <option value="">Choose Your Arena</option>
+                <option value="9">General Knowledge</option>
+                <option value="17">Science & Nature</option>
+                <option value="23">History</option>
+                <option value="11">Movies</option>
+                <option value="21">Sports</option>
+            </select>
+            <select id="difficulty-select" class="gradient-select">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button id="start-btn" class="gradient-btn">Launch Challenge</button>
+            <div class="leaderboard-toggle" onclick="toggleLeaderboard()">View Leaderboard</div>
+        </div>
+        <div class="quiz-container" id="quiz-container" style="display: none;">
+            <div class="quiz-head">
+                <h1 class="title-gradient">Masterclass Quiz</h1>
+                <div class="quiz-progress">
+                    <span id="current-question">1</span>/<span id="total-question">10</span>
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                </div>
+                <div class="quiz-score">
+                    Score: <span id="correct-score" class="score-gradient">0</span>
+                    <div class="timer">Time: <span id="timer">15</span>s</div>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question"></h2>
+                <ul class="quiz-options"></ul>
+                <div id="result" class="result-box"></div>
+            </div>
+            <div class="quiz-foot">
+                <button type="button" id="check-answer" class="gradient-btn">Submit</button>
+                <button type="button" id="next-question" class="gradient-btn" style="display: none;">Next</button>
+                <button type="button" id="play-again" class="gradient-btn" style="display: none;">Restart</button>
+            </div>
+        </div>
+        <div class="leaderboard" id="leaderboard" style="display: none;">
+            <h2 class="title-gradient">Leaderboard</h2>
+            <ul id="leaderboard-list"></ul>
+            <button class="gradient-btn" onclick="toggleLeaderboard()">Close</button>
+        </div>
+    </div>
+    <canvas id="confetti-canvas"></canvas>
+    <audio id="correct-sound" src="https://www.soundjay.com/buttons/beep-01a.mp3"></audio>
+    <audio id="incorrect-sound" src="https://www.soundjay.com/buttons/beep-02.mp3"></audio>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
