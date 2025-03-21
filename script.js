@@ -1,13 +1,4 @@
 
-swer === correctAnswer) {
-        correctScore++;
-        resultEl.innerHTML = `<i class="fas fa-check-circle"></i> Brilliant!`;
-        selectedOption.classList.add("correct");
-        animateScore();
-    } else {
-        resultEl.innerHTML = `<i class="fas fa-times-circle"></i> Oops! Correct answer: <b>${correctAnswer}</b>`;
-        selectedOption.classList.add("incorrect");
-    }
 
     resultEl.classList.add("result-slide");
     checkAnswerBtn.style.display = "none";
