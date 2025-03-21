@@ -1,11 +1,4 @@
-en, .quiz-container {
-    animation: fadeIn 0.5s ease-in-out;
-}
-
-.title-gradient {
-    font-size: 2.5rem;
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
+-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1.5rem;
 }
