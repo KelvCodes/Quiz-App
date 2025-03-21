@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterclass Quiz Pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="start-screen" id="start-screen">
+            <h1 class="title-gradient">Masterclass Quiz Pro</h1>
+            <select id="category-select" class="gradient-select">
+                <option value="">Choose Your Challenge</option>
+                <option value="9">General Knowledge</option>
+                <option value="17">Science & Nature</option>
+                <option value="23">History</option>
+                <option value="11">Movies</option>
+                <option value="21">Sports</option>
+            </select>
+            <button id="start-btn" class="gradient-btn">Begin Journey</button>
+        </div>
+        <div class="quiz-container" id="quiz-container" style="display: none;">
+            <div class="quiz-head">
+                <h1 class="title-gradient">Masterclass Quiz</h1>
+                <div class="quiz-progress">
+                    Question <span id="current-question">1</span>/<span id="total-question">10</span>
+                </div>
+                <div class="quiz-score">
+                    Score: <span id="correct-score" class="score-gradient">0</span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question"></h2>
+                <ul class="quiz-options"></ul>
+                <div id="result" class="result-box"></div>
+            </div>
+            <div class="quiz-foot">
+                <button type="button" id="check-answer" class="gradient-btn">Submit Answer</button>
+                <button type="button" id="next-question" class="gradient-btn" style="display: none;">Next Challenge</button>
+                <button type="button" id="play-again" class="gradient-btn" style="display: none;">Restart Journey</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
