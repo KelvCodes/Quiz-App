@@ -1,9 +1,5 @@
 
 let correctAnswer = "";
-let correctScore = 0;
-let currentQuestion = 0;
-let totalQuestions = 10;
-let selectedCategory = "";
 
 startBtn.addEventListener("click", startQuiz);
 checkAnswerBtn.addEventListener("click", checkAnswer);
