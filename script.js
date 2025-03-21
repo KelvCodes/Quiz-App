@@ -1,10 +1,3 @@
-st totalQuestionEl = document.getElementById("total-question");
-const currentQuestionEl = document.getElementById("current-question");
-const resultEl = document.getElementById("result");
-const startScreen = document.getElementById("start-screen");
-const quizContainer = document.getElementById("quiz-container");
-const categorySelect = document.getElementById("category-select");
-const startBtn = document.getElementById("start-btn");
 
 let correctAnswer = "";
 let correctScore = 0;
