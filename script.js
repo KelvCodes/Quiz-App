@@ -1,12 +1,6 @@
 .classList.add("score-bounce");
     setTimeout(() => correctScoreEl.classList.remove("score-bounce"), 600);
-}
-
-function endGame() {
-    resultEl.innerHTML = `<h3 class="title-gradient">Quiz Complete!</h3> Final Score: ${correctScore}/${totalQuestions}`;
-    resultEl.classList.add("result-slide");
-    nextQuestionBtn.style.display = "none";
-    playAgainBtn.style.display = "block";
+}tn.style.display = "block";
 }
 
 function restartGame() {
