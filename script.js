@@ -1,11 +1,4 @@
 
-funions.sort(() => Math.random() - 0.5);
-
-            questionEl.innerHTML = `${questionData.question} 
-                <span class="category">(${questionData.category})</span>`;
-            optionsList.innerHTML = options
-                .map(option => `<li class="option-slide">${option}</li>`)
-                .join("");
 
             optionsList.querySelectorAll("li").forEach((option, index) => {
                 option.style.animationDelay = `${index * 0.1}s`;
