@@ -1,12 +1,5 @@
 ght: #fff;
-    --dark: #333;
-    --transition: all 300ms ease-in-out;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  ;
 }
 
 body {
