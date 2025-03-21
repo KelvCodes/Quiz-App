@@ -1,11 +1,4 @@
-ght: #fff;
- flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.wrapper {
-    background: var(--light);
+ght);
     padding: 2.5rem;
     width: 90%;
     max-width: 750px;
