@@ -1,12 +1,4 @@
-
-let correctAnswer = "";
-
-startBtn.addEventListener("click", startQuiz);
-checkAnswerBtn.addEventListener("click", checkAnswer);
-nextQuestionBtn.addEventListener("click", loadNextQuestion);
-playAgainBtn.addEventListener("click", restartGame);
-
-function startQuiz() {
+n startQuiz() {
     selectedCategory = categorySelect.value;
     if (!selectedCategory) {
         alert("Please select a category!");
