@@ -1,10 +1,4 @@
-    margin: 0.5rem auto;
-    cursor: pointer;
-    transition: var(--transition);
-    appearance: none; /* Remove default arrow */
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="%238854C0" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'); /* Custom arrow */
-    background-repeat: no-repeat;
-    background-position: right 0.7rem center;
+ground-position: right 0.7rem center;
     background-size: 1rem;
 }
 
