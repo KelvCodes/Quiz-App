@@ -1,8 +1,4 @@
-t {
-    --primary-gradient: linear-gradient(135deg, #8854C0, #FF6F61);
-    --dark-gradient: linear-gradient(135deg, #1a1333, #3a2a66);
-    --light: #fff;
-    --dark: #333;
+ --dark: #333;
     --transition: all 300ms ease-in-out;
 }
 
