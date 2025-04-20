@@ -1,13 +1,7 @@
 
 .gradient-btn:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-}
-
-.leaderboard-toggle {
-    margin-top: 1rem;
-    color: #8854C0;
-    cursor: pointer;
+   pointer;
     text-decoration: underline;
     font-size: clamp(0.9rem, 2.5vw, 1rem);
     text-align: center;
