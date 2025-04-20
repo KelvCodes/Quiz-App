@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-:root {
+t {
     --primary-gradient: linear-gradient(135deg, #8854C0, #FF6F61);
     --dark-gradient: linear-gradient(135deg, #1a1333, #3a2a66);
     --light: #fff;
