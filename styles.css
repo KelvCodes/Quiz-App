@@ -1,9 +1,4 @@
-ding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
+   font-family: 'Poppins', sans-serif;
     color: var(--dark);
     background: var(--dark-gradient);
     min-height: 100vh;
