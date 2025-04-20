@@ -1,10 +1,5 @@
 low: hidden;
     min-height: 80vh; /* Ensure wrapper takes up space */
-}
-
-.start-screen, .quiz-container, .leaderboard {
-    animation: fadeIn 0.5s ease-in-out;
-}
 
 .title-gradient {
     font-size: clamp(1.8rem, 5vw, 2.8rem); /* Responsive font size */
