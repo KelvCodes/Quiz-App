@@ -1,10 +1,4 @@
-ground-position: right 0.7rem center;
-    background-size: 1rem;
-}
 
-.gradient-select:hover {
-    border-color: #FF6F61;
-}
 
 .gradient-btn {
     background: var(--primary-gradient);
