@@ -1,8 +1,4 @@
-
-r-radius: 2rem;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-    position: relative;
-    overflow: hidden;
+low: hidden;
     min-height: 80vh; /* Ensure wrapper takes up space */
 }
 
