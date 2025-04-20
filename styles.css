@@ -1,10 +1,4 @@
- min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Start from top for scrolling */
-    padding: 1rem;
-    overflow-y: auto; /* Enable vertical scrolling */
-}
+
 
 .wrapper {
     background: var(--light);
