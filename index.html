@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+ 
+</head>
+<body>
+    <div class="wrapper">
+        <div id="start-screen" class="start-screen">
+            <h1 class="title-gradient">Quiz Master</h1>
+            <select id="category-select" class="gradient-select" aria-label="Select quiz category">
+                <option value="">Select Category</option>
+                <option value="9">General Knowledge</option>
+                <option value="11">Entertainment: Film</option>
+                <option value="23">History</option>
+                <option value="17">Science & Nature</option>
+            </select>
+            <select id="difficulty-select" class="gradient-select" aria-label="Select quiz difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button id="start-btn" class="gradient-btn">Start Quiz</button>
+            <div id="leaderboard-toggle" class="leaderboard-toggle" role="button" tabindex="0">View Leaderboard</div>
+        </div>
+        <div id="quiz-container" class="quiz-container" style="display: none;">
+            <h2 class="title-gradient">Quiz Time!</h2>
+            <div class="quiz-score">
+                <span>Score: <span id="correct-score" class="score-gradient">0</span></span>
+                <span id="timer" class="timer">15</span>
+            </div>
+            <div class="quiz-progress">
+                Question: <span id="current-question">1</span>/<span id="total-question">10</span>
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+            </div>
+            <div id="question" class="quiz-question"></div>
+            <ul class="quiz-options"></ul>
+            <div id="result" class="result-box"></div>
+            <div class="quiz-foot">
+                <button id="check-answer" class="gradient-btn">Check Answer</button>
+                <button id="next-question" class="gradient-btn" style="display: none;">Next Question</button>
+                <button id="play-again" class="gradient-btn" style="display: none;">Play Again</button>
+            </div>
+            <div id="leaderboard-toggle" class="leaderboard-toggle" role="button" tabindex="0">View Leaderboard</div>
+        </div>
+        <div id="leaderboard" class="leaderboard" style="display: none;">
+            <h2 class="title-gradient">Leaderboard</h2>
+            <ul id="leaderboard-list"></ul>
+            <button id="close-leaderboard" class="gradient-btn">Close</button>
+        </div>
+    </div>
+    <canvas id="confetti-canvas"></canvas>
+    <audio id="correct-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-positive-notification-266.mp3"></audio>
+    <audio id="incorrect-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-game-show-wrong-answer-1994.mp3"></audio>
 
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
