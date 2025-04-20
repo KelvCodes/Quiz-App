@@ -1,7 +1,4 @@
-   font-family: 'Poppins', sans-serif;
-    color: var(--dark);
-    background: var(--dark-gradient);
-    min-height: 100vh;
+ min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Start from top for scrolling */
