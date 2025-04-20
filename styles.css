@@ -1,11 +1,4 @@
-low: hidden;
-    min-height: 80vh; /* Ensure wrapper takes up space */
-
-.title-gradient {
-    font-size: clamp(1.8rem, 5vw, 2.8rem); /* Responsive font size */
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+kit-text-fill-color: transparent;
     margin-bottom: 1.5rem;
     text-align: center;
 }
