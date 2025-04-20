@@ -1,11 +1,5 @@
 
-.gradient-btn:hover {
-    transform: translateY(-5px);
-   pointer;
-    text-decoration: underline;
-    font-size: clamp(0.9rem, 2.5vw, 1rem);
-    text-align: center;
-}
+.
 
 .quiz-progress {
     font-size: clamp(1rem, 3vw, 1.3rem);
