@@ -1,11 +1,4 @@
-
-
-.gradient-btn {
-    background: var(--primary-gradient);
-    border: none;
-    padding: 0.8rem 2rem;
-    border-radius: 0.8rem;
-    color: var(--light);
+or: var(--light);
     font-size: clamp(1rem, 3vw, 1.3rem);
     cursor: pointer;
     transition: var(--transition);
